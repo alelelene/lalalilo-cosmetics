@@ -1,0 +1,101 @@
+/*
+TODO: 
+    1. Nav ul li  
+    2. search button
+    3. hover effect
+    4. banner
+    5. footer
+    6. other pages 
+*/
+
+
+
+/* HEADER - NAV */
+
+body {
+    font-family: "Circular", sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    /* box-shadow: 1px 1px 30px #00000038; */
+    width: 100vw;
+    position: fixed;
+    background: white;
+    top: 0;
+}
+
+.branding img {
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 1;
+    
+}
+
+.icons li img {
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.branding { 
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 4;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+}
+
+.links li {
+    height: 100px;
+}
+
+.links li a {
+    text-decoration: none;
+    color: #181818;
+    font-size: 20px;
+    display: flex;
+    padding: 40px 20px 40px 20px;
+}
+
+.links li a:hover {
+    background: #FC5B58;
+    color: white;
+}
+
+input {
+    font-family: "Circular", sans-serif;
+    font-size: 20px;
+    padding: 2px 10px 3px 15px;
+    border: 1px solid #FC5B58;
+    border-radius: 20px;
+    margin: 34px 20px 34px 20px;
+    
+}
+
+input:focus {
+    outline: 0;
+}
+
+#search {
+    width: 20px;
+    transform: translate(-56px, 3px);
+
+}
+
+
+

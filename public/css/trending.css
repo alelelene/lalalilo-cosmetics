@@ -1,0 +1,70 @@
+#trending {
+    padding: 50px 0px;
+}
+
+
+#trending h1 {
+    font-size: 24px;
+    padding: 10px 0px 10px 0px;
+}
+
+.trending-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.trending-items {
+    display: flex;
+    width: 80vw;
+    /* width: 100vw; */
+    justify-content: space-between;
+}
+
+.trending-items a {
+
+    /* flex-grow: 1 */
+    border-radius: 10px;
+    width: 25%;
+    text-decoration: none;
+    /* border: 1px solid #e7e7e7; */
+    text-align: center;
+    transition: all 0.5s ease;
+
+}
+
+.trending-items a:hover{
+    box-shadow: 1px 5px 15px #0000003b;
+    transition: all 0.5s ease;
+}
+
+.trending-items a:hover .items-thumbnail{
+    /* mask-image: initial; */
+    transform: scale(1);
+    z-index: -99;
+    transition: all 0.3s ease;
+}
+
+.items-name {
+    text-align: left;
+    padding-left: 15px;
+    /* text-decoration: none; */
+    color: #181818;
+}
+
+.items-price {
+    color: #FC5B58;
+    text-align: left;
+    font-size: 18px;
+    padding: 10px 0px 20px 15px;
+
+
+}
+
+.items-thumbnail {
+    transform: scale(0.9);
+    display: inline-block;
+    height: 200px;
+    max-width: 200px;
+    transition: all 0.3s ease;
+
+}

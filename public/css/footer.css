@@ -1,0 +1,65 @@
+footer {
+    width: 100vw;
+    height: 250px;
+    background: black;
+}
+
+.col-1 {
+    flex-grow: 1;
+    
+    
+}
+
+footer h1 {
+    color: #FC5B58;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 35px 0px 2px 0px;
+}
+
+.col-1 ul li a {
+    color: #9c9c9c;
+    text-decoration: none;
+
+}
+
+.col-1 ul li a:hover {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.col-1 ul li {
+    padding: 4px 0px;
+}
+
+
+
+.col-2 {
+    flex-grow: 1;
+
+}
+
+.col-2 .social {
+    display: flex;
+
+}
+
+.col-2 a {
+    
+    padding: 10px 10px 0px 0px;
+}
+
+.col-3 {
+    flex-grow: 1;
+    /* min-height: 500px; */
+}
+
+.col-3 p {
+    width: 500px;
+    color: white;
+    font-size: 24px;
+    /* font-family: 'Circular', Times, serif; */
+    font-weight: 100;
+    padding-top: 10px;
+    /* word-wrap: normal; */
+}
